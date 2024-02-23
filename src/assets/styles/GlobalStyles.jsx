@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 *,
 *::before,
 *::after {
@@ -60,3 +60,5 @@ svg {
   fill: currentColor;
 }
 `;
+
+export default GlobalStyles
