@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmatovir=self.webpackChunkmatovir||[]).push([[577],{577:(e,a,s)=>{s.r(a),s.d(a,{default:()=>r});var t=s(579);const r=()=>(0,t.jsx)("div",{children:"Not found Page"})}}]);
+//# sourceMappingURL=577.59753a49.chunk.js.map

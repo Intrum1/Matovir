@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmatovir=self.webpackChunkmatovir||[]).push([[881],{881:(e,s,a)=>{a.r(s),a.d(s,{default:()=>u});var t=a(579);const u=()=>(0,t.jsx)("div",{children:"About us Page"})}}]);
+//# sourceMappingURL=881.181d3350.chunk.js.map
