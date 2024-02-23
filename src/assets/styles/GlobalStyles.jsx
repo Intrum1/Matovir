@@ -1,6 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+:root {
+  --accentOrange: ${({theme}) => theme.colors.accentOrange};
+  --white: ${({theme}) => theme.colors.white};
+  --black: ${({theme}) => theme.colors.black};
+  --headerBg: ${({theme}) => theme.colors.headerBg};
+  --linearTransition: ${({theme}) => theme.transitions.linear};
+}
+
 *,
 *::before,
 *::after {
@@ -8,13 +16,13 @@ const GlobalStyles = createGlobalStyle`
 }
 
  body {
-  font-family: 'Neue Montreal', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
   margin: 0;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 h1,
@@ -42,6 +50,8 @@ a {
 button {
   font-family: inherit;
   border: none;
+  padding: 0;
+  background-color: transparent;
   cursor: pointer;
 }
 

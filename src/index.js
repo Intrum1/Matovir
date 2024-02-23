@@ -7,6 +7,6 @@ import App from 'components/App';
 ReactDOM.createRoot(document.getElementById('root')).render(
 <React.StrictMode>
   <BrowserRouter basename='/matovir'>
-  <App />
+      <App />
   </BrowserRouter>
 </React.StrictMode>);

@@ -6,7 +6,7 @@ export const HeaderBlock = styled.header`
     align-items: center;
     position: sticky;
     width: 100vw;
-    background-color: #918383;
+    background-color: var(--headerBg);
 `;
 
 export const HeaderContent = styled.div`
@@ -18,8 +18,16 @@ export const HeaderContent = styled.div`
 
 export const HeaderLogo = styled(Link)`   
    img {
-    width: 170px;
-    height: 100px;
+      filter: drop-shadow(1px 3px 10px var(--black));
+    @media screen and (min-width: 768px) {
+      width: 170px;
+      height: 80px;
+    }
+
+    @media screen and (min-width: 1440px) {
+    width: 200px;
+    height: 90px;
+    }
    }
 `;
 
