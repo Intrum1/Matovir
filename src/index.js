@@ -4,13 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import 'modern-normalize'
 import App from 'components/App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter basename='/matovir'>
-    <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
-
-
+ReactDOM.createRoot(document.getElementById('root')).render(
+<React.StrictMode>
+  <BrowserRouter basename='/matovir'>
+  <App />
+  </BrowserRouter>
+</React.StrictMode>);
