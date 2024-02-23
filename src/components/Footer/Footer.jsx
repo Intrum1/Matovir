@@ -1,13 +1,13 @@
-import {  ContainerWrap } from '../App/App.styled';
+import { ContainerWrap } from '../App/App.styled';
 
 const Footer = () => {
   return (
     <footer>
-        <ContainerWrap>
-            Footer
-        </ContainerWrap>
+      <ContainerWrap>
+        <adress>Prague, Czech Republic</adress>
+      </ContainerWrap>
     </footer>
-  ) 
-}
+  );
+};
 
 export default Footer;
