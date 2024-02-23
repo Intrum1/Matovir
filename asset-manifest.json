@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cda0caf.css",
-    "main.js": "/static/js/main.00486ed0.js",
-    "static/js/881.181d3350.chunk.js": "/static/js/881.181d3350.chunk.js",
-    "static/js/634.2040cf34.chunk.js": "/static/js/634.2040cf34.chunk.js",
-    "static/js/577.59753a49.chunk.js": "/static/js/577.59753a49.chunk.js",
-    "static/media/logo.png": "/static/media/logo.57df13054fff33412609.png",
-    "index.html": "/index.html",
-    "main.7cda0caf.css.map": "/static/css/main.7cda0caf.css.map",
-    "main.00486ed0.js.map": "/static/js/main.00486ed0.js.map",
-    "881.181d3350.chunk.js.map": "/static/js/881.181d3350.chunk.js.map",
-    "634.2040cf34.chunk.js.map": "/static/js/634.2040cf34.chunk.js.map",
-    "577.59753a49.chunk.js.map": "/static/js/577.59753a49.chunk.js.map"
+    "main.css": "/matovir/static/css/main.7cda0caf.css",
+    "main.js": "/matovir/static/js/main.6e1e854a.js",
+    "static/js/881.181d3350.chunk.js": "/matovir/static/js/881.181d3350.chunk.js",
+    "static/js/634.2040cf34.chunk.js": "/matovir/static/js/634.2040cf34.chunk.js",
+    "static/js/577.59753a49.chunk.js": "/matovir/static/js/577.59753a49.chunk.js",
+    "static/media/logo.png": "/matovir/static/media/logo.57df13054fff33412609.png",
+    "index.html": "/matovir/index.html",
+    "main.7cda0caf.css.map": "/matovir/static/css/main.7cda0caf.css.map",
+    "main.6e1e854a.js.map": "/matovir/static/js/main.6e1e854a.js.map",
+    "881.181d3350.chunk.js.map": "/matovir/static/js/881.181d3350.chunk.js.map",
+    "634.2040cf34.chunk.js.map": "/matovir/static/js/634.2040cf34.chunk.js.map",
+    "577.59753a49.chunk.js.map": "/matovir/static/js/577.59753a49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.00486ed0.js"
+    "static/js/main.6e1e854a.js"
   ]
 }
