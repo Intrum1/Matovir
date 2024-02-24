@@ -1,14 +1,17 @@
+import { useTranslation } from 'react-i18next';
 import {Navig, NavigList, NavigLink } from "./Navigation.styled";
 
-const Navigation = () => {
+const Navigation = ({variant}) => {
+    const {t} = useTranslation();
+
     return (
-       <Navig>
+       <Navig $variant={variant}>
            <NavigList>
                <li>
-                    <NavigLink to='/'>About Us</NavigLink>
+                    <NavigLink to='/'>{t('nav.aboutUs')}</NavigLink>
                </li>
                <li>
-                    <NavigLink to='/contacts'>Contacts</NavigLink>
+                    <NavigLink to='/contacts'>{t('nav.contacts')}</NavigLink>
                </li>
            </NavigList>
        </Navig>

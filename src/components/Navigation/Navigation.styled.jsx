@@ -1,8 +1,11 @@
-import styled from 'styled-components';
+import {styled} from 'styled-components';
 import { NavLink } from "react-router-dom";
 
 export const Navig = styled.nav`
+     display: ${({$variant}) => $variant === 'header' ? 'none' : 'block'};
+
     @media screen and (min-width: 768px) {
+        display: block;
     }
 `
 
@@ -13,6 +16,7 @@ export const NavigList = styled.ul`
 `
 
 export const NavigLink = styled(NavLink)`
+    font-size: 18px;
     color: var(--white);
     transition: color var(--linearTransition);
 
@@ -22,7 +26,7 @@ export const NavigLink = styled(NavLink)`
 
         &::after {
             position: absolute;
-            bottom: -5px;
+            bottom: -10px;
             content: '';
             display: block;
             width: 100%;

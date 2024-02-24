@@ -1,8 +1,11 @@
 import { styled } from 'styled-components';
 
 export const FooterSection = styled.footer`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding: 40px 0 20px 0;
-  background-color: ${({ theme }) => theme.colors.danger};
+  background-color: var(--white);
 `;
 
 export const FooterPositioning = styled.div`

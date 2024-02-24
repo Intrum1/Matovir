@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
   --white: ${({theme}) => theme.colors.white};
   --black: ${({theme}) => theme.colors.black};
   --headerBg: ${({theme}) => theme.colors.headerBg};
+  --backdrop: ${({theme}) => theme.colors.backdrop};
   --linearTransition: ${({theme}) => theme.transitions.linear};
 }
 
@@ -16,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
 }
 
  body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
@@ -53,6 +54,11 @@ button {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
 }
 
 

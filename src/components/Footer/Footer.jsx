@@ -9,7 +9,6 @@ import {
 
 const Footer = () => {
   return (
-    <footer>
       <FooterSection>
         <ContainerWrap>
           <FooterPositioning>
@@ -36,7 +35,6 @@ const Footer = () => {
           </FooterPositioning>
         </ContainerWrap>
       </FooterSection>
-    </footer>
   );
 };
 

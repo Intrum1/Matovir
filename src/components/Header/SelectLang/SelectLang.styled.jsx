@@ -1,15 +1,15 @@
-import styled from 'styled-components';
+import {styled} from 'styled-components';
 
 export const SelectWrap = styled.div`
+    display: ${({$variant}) => $variant === 'header' ? 'none' : 'block'};
     position: relative;
+
+    @media screen and (min-width: 768px) {
+        display: block
+    }
 
     svg {
         fill: var(--white);
-
-        @media screen and (min-width: 768px) {
-            width: 20px;
-            height: 20px;
-        }
 
         @media screen and (min-width: 1440px) {
             width: 23px;
