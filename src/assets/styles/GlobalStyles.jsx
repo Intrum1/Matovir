@@ -1,6 +1,22 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+<<<<<<< Updated upstream
+=======
+:root {
+  --accentOrange: ${({ theme }) => theme.colors.accentOrange};
+  --white: ${({ theme }) => theme.colors.white};
+  --black: ${({ theme }) => theme.colors.black};
+  --headerBg: ${({ theme }) => theme.colors.headerBg};
+  --face: ${({ theme }) => theme.colors.face};
+  --insta: ${({ theme }) => theme.colors.insta};
+  --phone: ${({ theme }) => theme.colors.phone};
+  --adress: ${({ theme }) => theme.colors.adress};
+  --linearTransition: ${({ theme }) => theme.transitions.linear};
+  
+}
+
+>>>>>>> Stashed changes
 *,
 *::before,
 *::after {
@@ -61,4 +77,4 @@ svg {
 }
 `;
 
-export default GlobalStyles
+export default GlobalStyles;
