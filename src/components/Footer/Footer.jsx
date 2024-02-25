@@ -1,5 +1,4 @@
 import { ContainerWrap } from '../App/App.styled';
-import { FooterTitle } from './Footer.styled';
 import {
   FooterSection,
   FooterPositioning,

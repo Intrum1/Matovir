@@ -6,22 +6,7 @@ export const SocialList = styled.ul`
   gap: 12px;
 `;
 
-export const FaceIcon = styled.svg`
+export const FooterIcon = styled.svg`
   fill: var(--face);
-  opacity: 0.8;
-`;
-
-export const AdressIcon = styled.svg`
-  fill: var(--adress);
-  opacity: 0.8;
-`;
-
-export const InstaIcon = styled.svg`
-  fill: var(--insta);
-  opacity: 0.8;
-`;
-
-export const PhoneIcon = styled.svg`
-  fill: var(--phone);
   opacity: 0.8;
 `;
