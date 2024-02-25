@@ -1,13 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+
 :root {
-  --accentOrange: ${({theme}) => theme.colors.accentOrange};
-  --white: ${({theme}) => theme.colors.white};
-  --black: ${({theme}) => theme.colors.black};
-  --headerBg: ${({theme}) => theme.colors.headerBg};
-  --backdrop: ${({theme}) => theme.colors.backdrop};
-  --linearTransition: ${({theme}) => theme.transitions.linear};
+  --accentOrange: ${({ theme }) => theme.colors.accentOrange};
+  --white: ${({ theme }) => theme.colors.white};
+  --black: ${({ theme }) => theme.colors.black};
+  --headerBg: ${({ theme }) => theme.colors.headerBg};
+  --backdrop: ${({ theme }) => theme.colors.backdrop};
+  --linearTransition: ${({ theme }) => theme.transitions.linear};
+  --face: ${({ theme }) => theme.colors.face};
+  --insta: ${({ theme }) => theme.colors.insta};
+  --phone: ${({ theme }) => theme.colors.phone};
+  --adress: ${({ theme }) => theme.colors.adress};
 }
 
 *,
@@ -77,4 +82,4 @@ svg {
 }
 `;
 
-export default GlobalStyles
+export default GlobalStyles;
