@@ -1,8 +1,10 @@
 import { lazy } from 'react';
 import { Routes, Route } from 'react-router';
+import { ThemeProvider } from 'styled-components';
+import theme from 'assets/styles/theme'
 import  GlobalStyles  from 'assets/styles/GlobalStyles';
 import SharedLayout from 'components/SharedLayout';
-import { MainContainer } from './App.styled';
+// import { MainContainer } from './App.styled';
 
 const AboutPage = lazy(()=> import('pages/AboutUs'));
 const ContactsPage = lazy(()=> import('pages/Contacts'));
@@ -10,7 +12,8 @@ const NotFoundPage = lazy(()=> import('pages/NotFound'));
 
 const  App = () => {
   return (
-    <MainContainer>
+    <ThemeProvider theme={theme}>
+    {/* <MainContainer> */}
     <GlobalStyles/>
 
     <Routes>
@@ -20,7 +23,8 @@ const  App = () => {
         <Route path='*' element={<NotFoundPage/>}/>
       </Route>
     </Routes>
-    </MainContainer>
+    {/* </MainContainer> */}
+    </ThemeProvider>
   );
 }
 

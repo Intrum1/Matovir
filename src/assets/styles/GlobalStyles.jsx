@@ -1,22 +1,20 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-<<<<<<< Updated upstream
-=======
+
 :root {
   --accentOrange: ${({ theme }) => theme.colors.accentOrange};
   --white: ${({ theme }) => theme.colors.white};
   --black: ${({ theme }) => theme.colors.black};
   --headerBg: ${({ theme }) => theme.colors.headerBg};
+  --backdrop: ${({ theme }) => theme.colors.backdrop};
+  --linearTransition: ${({ theme }) => theme.transitions.linear};
   --face: ${({ theme }) => theme.colors.face};
   --insta: ${({ theme }) => theme.colors.insta};
   --phone: ${({ theme }) => theme.colors.phone};
   --adress: ${({ theme }) => theme.colors.adress};
-  --linearTransition: ${({ theme }) => theme.transitions.linear};
-  
 }
 
->>>>>>> Stashed changes
 *,
 *::before,
 *::after {
@@ -24,13 +22,13 @@ const GlobalStyles = createGlobalStyle`
 }
 
  body {
-  font-family: 'Neue Montreal', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
   margin: 0;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 h1,
@@ -58,7 +56,14 @@ a {
 button {
   font-family: inherit;
   border: none;
+  padding: 0;
+  background-color: transparent;
   cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
 }
 
 
