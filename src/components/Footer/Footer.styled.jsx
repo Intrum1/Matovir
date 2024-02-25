@@ -1,9 +1,6 @@
 import { styled } from 'styled-components';
 
 export const FooterSection = styled.footer`
-  /* display: flex;
-  align-items: center;
-  position: sticky; */
   padding: 40px 0 20px 0;
   background-color: var(--headerBg);
 `;
